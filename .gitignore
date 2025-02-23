@@ -1,0 +1,42 @@
+# Build output
+dist/
+build/
+main.js
+
+# Dependencies
+node_modules/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Obsidian specific
+data.json
+.obsidian/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.log
+*.tmp
+.temp/

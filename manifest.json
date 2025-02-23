@@ -1,0 +1,10 @@
+{
+    "id": "ai-study-partner",
+    "name": "AI Study Partner",
+    "version": "1.0.0",
+    "minAppVersion": "0.15.0",
+    "description": "AI助手帮助理解和处理笔记内容",
+    "author": "gavin",
+    "authorUrl": "https://github.com/bwboy",
+    "isDesktopOnly": false
+} 

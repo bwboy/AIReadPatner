@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "target": "ES2018",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "DOM",
+      "ES2018",
+      "DOM.Iterable"
+    ],
+    "types": ["node", "react", "react-dom"],
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "jsxImportSource": "react"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+} 

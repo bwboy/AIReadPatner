@@ -1,0 +1,40 @@
+{
+  "name": "obsidian-ai-study-partner",
+  "version": "1.0.0",
+  "description": "AI助手帮助理解和处理笔记内容的Obsidian插件",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "test": "jest",
+    "version": "node version-bump.mjs && git add manifest.json versions.json"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "ai",
+    "study"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "16.11.6",
+    "@typescript-eslint/eslint-plugin": "5.29.0",
+    "@typescript-eslint/parser": "5.29.0",
+    "builtin-modules": "3.2.0",
+    "esbuild": "0.17.3",
+    "obsidian": "1.1.1",
+    "tslib": "2.4.0",
+    "typescript": "4.7.4",
+    "@types/react": "^17.0.50",
+    "@types/react-dom": "^17.0.17"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-toast": "^2.4.1",
+    "@hookform/resolvers": "^4.1.1",
+    "react-hook-form": "^7.54.2",
+    "zod": "^3.24.2"
+  }
+}
