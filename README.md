@@ -59,7 +59,7 @@
 MIT License
 
 ## 👥 联系方式
-- 问题反馈：请在 GitHub Issues 页面提交
+- 问题反馈：请在 GitHub Issues 页面提交，也可以联系bwboy@163.com
 - 功能建议：欢迎在 Discussions 中讨论
 
 ## 🙏 致谢
